@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 # ===============================
 # 0. SETUP
 # ===============================
-DATA_PATH = r"C:\Users\Mink\Documents\GitHub\Dataset-Save-Place\Air Quality\AirQualityUCI_cleaned.csv"
-RESULT_DIR = "results_nan_timeline"
+DATA_PATH = r"C:\Users\Mink\OneDrive\Documents\GitHub\Machine-Learning-2\Project\AirQualityUCI.csv"
+RESULT_DIR = r"C:\Users\Mink\OneDrive\Documents\GitHub\Machine-Learning-2\Project\results\results_nan_timeline"
 os.makedirs(RESULT_DIR, exist_ok=True)
 
 plt.rcParams["figure.figsize"] = (12, 6)
